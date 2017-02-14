@@ -47,17 +47,30 @@ Developer @GA in NYC
   font-family: "Open Sans", sans-serif;
   font-size: 48px;
   font-weight: 800;
-  color: white;
 }
-header {
-  background-color: #033048;
+header .logo {
+  color: #fff;
+  float: left;
+  padding: 10px 60px;
+}
+header nav {
+  float: right;
+  margin-top: 30px;
 }
 header nav ul li {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
+  display: inline-block;
 }
 header nav ul li a {
   color: #f9e42e;
+}
+header {
+  background-color: #033048;
+}
+.glyphicon-menu-hamburger {
+  font-size: npx;
+  float: right;
 }
 #hero {
   height: 700px;
