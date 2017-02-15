@@ -33,9 +33,8 @@ Developer @GA in NYC
 
 .alignright {x
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px;/* note the padding around a right floated image */
 }
-
 .alignleft {
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
@@ -68,9 +67,8 @@ header nav ul li a {
 header {
   background-color: #033048;
 }
-.glyphicon-menu-hamburger {
-  font-size: npx;
-  float: right;
+#hamburger {
+  display: none;
 }
 #hero {
   height: 700px;
@@ -165,4 +163,71 @@ footer p {
   color: #fff;
   font-weight: 600;
   padding: 10px 0 0 0;
+}
+
+@media only screen and (max-width: 990px) {
+#hamburger {
+  display: block;
+  float: right;
+  margin: 15px 10px 0 100px;
+}
+.glyphicon-menu-hamburger {
+  font-size: 24px;
+}  
+
+nav {
+  display: none;
+}
+.logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+header .logo {
+  color: #fff;
+  float: left;
+  padding: 10px 20px;
+}
+#hero {
+  height: 500px;
+}
+#hero h2 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  width: 320px
+}
+#benefits {
+  padding: 100px 0 80px;
+  margin: 0 0 0 30px;
+}
+h3 {
+  color: #033048;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+#benefits p, #benefits ul {
+  width: 280px;
+}
+#benefits ul {
+  list-style: disc;
+  margin: 30px 0 0 10px;
+}
+blockquote {  
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 280px;
+  margin: 0 auto;
+}
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
 }
