@@ -31,6 +31,7 @@ h2 {
 	font-size: 24px;
 }
 article {
+	margin: 10px;
 	border-bottom: 1px solid black;
 }
 h4 {
@@ -88,4 +89,7 @@ li a img {
 .social {
 	padding: 0 20px;
 	margin: 0 0	0 -20px;
+}
+.container {
+	width: 100%;
 }
