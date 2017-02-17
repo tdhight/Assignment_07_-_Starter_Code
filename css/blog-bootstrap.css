@@ -1,11 +1,16 @@
 body {
 	font-family: "Open Sans", sans-serif;
+	background-color: lightgray;
 }
 ul {
 	list-style-type: none;
 }
 li {
 	display: inline;
+	font-size: 20px;
+}
+ul li {
+	padding-left: 0;
 }
 h3 + ul li {
 	display: block;
@@ -22,9 +27,65 @@ h1 {
 	color: white;
 	padding: 20px 40px 20px 40px;
 }
-.gray-background {
-	background-color: lightgray;
+h2 {
+	font-size: 24px;
+}
+article {
+	border-bottom: 1px solid black;
+}
+h4 {
+	text-align: center;
+	color: white;
+}
+li a img {
+	width: auto;
 }
 .blue-background {
 	background-color: #033048;
+}
+.yellow {
+	color: #f9e42e;
+}
+.nav-padding {
+	padding: 40px 20px 40px 20px;
+}
+.nav-margin {
+	margin: 50px 0 0 0;
+}
+.readmore {
+  text-align: right;
+  margin-top: 30px;
+}
+.readmore a {
+  color: #043049;
+  font-weight: 600;
+}
+#bottom-cta {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+.blue {
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #033048;
+  color: #fff;
+}
+.logo {	
+  font-size: 48px;
+  font-weight: 800;
+  padding: 10px 0;
+}
+.copyright {
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+}
+.align-center {
+	text-align: center;
+}
+.social {
+	padding: 0 20px;
+	margin: 0 0	0 -20px;
 }
