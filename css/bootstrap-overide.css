@@ -82,6 +82,7 @@ header {
   color: #fff;
   margin: 120px 0 90px;
   font-weight: 600;
+  text-align: center;
 }
 .button-yellow {
   font-family: "Open Sans", sans-serif;
@@ -190,13 +191,12 @@ header .logo {
 }
 #hero {
   height: 500px;
+  text-align: center;
 }
 #hero h2 {
   font-size: 30px;
   color: #fff;
-  text-align: center;
   font-weight: 600;
-  width: 320px
 }
 #benefits {
   padding: 100px 0 80px;
